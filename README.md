@@ -62,3 +62,8 @@ Simple python app which makes sql requests to firebird database(s) and returns r
   net start FirebirdRestApiService
 
   ```
+
+
+## TODO
+
+  - add blobs support for /execute
