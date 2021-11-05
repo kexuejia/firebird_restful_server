@@ -1,4 +1,3 @@
-markdown: kramdown
 # Firebird RESTful server
 <a href="https://www.buymeacoffee.com/kexuejia" target="_blank">Buy me a coffee</a>
 
