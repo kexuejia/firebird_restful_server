@@ -1,5 +1,6 @@
+markdown: kramdown
 # Firebird RESTful server
-[Buy me a coffee ](https://www.buymeacoffee.com/kexuejia){:target="_blank"}
+<a href="https://www.buymeacoffee.com/kexuejia" target="_blank">Buy me a coffee</a>
 
 Simple python app which makes sql requests to firebird database(s) and returns result in JSON format
 
