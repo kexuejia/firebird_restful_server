@@ -1,4 +1,4 @@
-# Firebird RESTful server
+# Firebird RESTful server [Buy me a coffee ](https://www.buymeacoffee.com/kexuejia)
 
 Simple python app which makes sql requests to firebird database(s) and returns result in JSON format
 
