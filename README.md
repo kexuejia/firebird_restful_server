@@ -67,3 +67,4 @@ Simple python app which makes sql requests to firebird database(s) and returns r
 ## TODO
 
   - add blobs support for /execute
+  - add local configuration file  where store connect options and make connect object in request optional  
