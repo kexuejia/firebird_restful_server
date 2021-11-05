@@ -54,7 +54,7 @@ Simple python app which makes sql requests to firebird database(s) and returns r
   ```
 
 ## Windows service installation
-  User NSSM - the Non-Sucking Service Manager and PyInstaller
+  Use NSSM - the Non-Sucking Service Manager and PyInstaller
 
   ```
   python.exe scripts\pyinstaller-script.py --onefile app.py
