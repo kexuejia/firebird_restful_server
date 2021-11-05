@@ -18,14 +18,20 @@ def select():
         password = content['connect']['password']
         charset = content['connect']['charset']
         sql_dialect = content['connect']['sql_dialect']
-        fb_library_name = content['connect']['fb_library_name']
+        if  ('fb_library_name' in content['connect']):
+            fb_library_name = content['connect']['fb_library_name']
+        else :
+            fb_library_name = None
         query = content['query']
 
     except  Exception as e:
         return jsonify({'error': 'parameter not found: '+str(e) })
 
     try:
-        fb = firebird(db, user,password,charset,sql_dialect,fb_library_name)
+        if fb_library_name == None:
+            fb = firebird(db, user,password,charset,sql_dialect)
+        else:
+            fb = firebird(db, user,password,charset,sql_dialect,fb_library_name)
     except  Exception as e:
 
         return jsonify({'error': str(e) })
