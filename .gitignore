@@ -4,3 +4,5 @@
 __pycache__
 firebird_osx/
 flask/
+builds/
+.DS_Store
